@@ -4,7 +4,7 @@ public class MaxAndMinNum {
 
 
 	public static void main(String[] args) {
-		int num[]; 
+		int []num; 
 		num= new int [5];
 
 		num[0]= 70;
@@ -13,11 +13,8 @@ public class MaxAndMinNum {
 		num[3]= 110;
 		num[4]= 120;
 
-
-		int maxNum= num[4];
-		int minNum = num [0];
-
-
+		int maxNum=120;
+		int minNum=70;		
 		System.out.println("The Max Number is= " +maxNum);
 		System.out.println("The Min Number is= " +minNum);
 
